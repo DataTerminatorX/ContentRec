@@ -1,3 +1,4 @@
 .DS*
 ._DS*
+code/__pycache__
 
