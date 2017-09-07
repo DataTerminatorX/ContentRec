@@ -8,7 +8,7 @@ Rememeber to alter parameters and constants if you are using your own source dat
 |:-----|:-------|:-------|
 |01|Wine|Made in China|
 
-[TOC]
+[toc]
 
 ## 1. Features
 1. Compatible with python2.7.x and python3.5.x (**python3 is preferred**)
@@ -17,6 +17,7 @@ Rememeber to alter parameters and constants if you are using your own source dat
 4. File parser for external files in `.txt/.pdf/.pptx/.doc/.docx` format.
 
 ### Development Process
+
 []Implementation of various sentence/paragraph encoding models
     []Unsupervised models
         [x]average of word2vec
@@ -39,6 +40,7 @@ Download stopwords by entering `python` in terminal window and using `nltk.downl
 ### 2.2. Setting constants
 
 If needed, change constants (e.g. cpu number, server port, word2vec/lda model parameters) in `constants.py`. BTW, model parameters have already been tuned.
+
     * From my experience, parameters which are vital important to models are: `TrainFiles`, `VEC_SIZE`, `W2V_TYPE`, `TOPICS_NUM`, `PASSES`, `WORD_DOC_FREQ`, 
 
 ### 2.3. Starting server
@@ -47,7 +49,7 @@ Run `server.py` on server. Will create a website like `http://[your ip address]:
 ### 2.4. Usage
 Input a text string through html's text input box, or through API (e.g. `http://[your ip address]:5000/problem?text=Detect fraud and cheat in ledger`), the API will send recommendation results in json format
 
-## 3. Folders and Files
+## 3. File Structure
 * **code** 
 (see comments in each code file for details)
     * `server.py`: Build an API and start a http server
