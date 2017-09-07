@@ -18,16 +18,16 @@ Rememeber to alter parameters and constants if you are using your own source dat
 
 ### Development Process
 
-[]Implementation of various sentence/paragraph encoding models
-    []Unsupervised models
-        [x]average of word2vec
-        [x]max of word2vec
-        [x]lda topics
-        [x]word mover distance(paper: "From Word Embeddings To Document Distances")
-        []topic word embedding(paper: "Topical Word Embeddings")
-    []Supervised models
-        []seq2seq model(paper: "The Ubuntu Dialogue Corpus- A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems")
-[x]An api for depolying on server
+[] Implementation of various sentence/paragraph encoding models
+    [] Unsupervised models
+        [x] average of word2vec
+        [x] max of word2vec
+        [x] lda topics
+        [x] word mover distance(paper: "From Word Embeddings To Document Distances")
+        [] topic word embedding(paper: "Topical Word Embeddings")
+    [] Supervised models
+        [] seq2seq model(paper: "The Ubuntu Dialogue Corpus- A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems")
+[x] An api for depolying on server
 
 ## 2. Running Procedure
 ### 2.1. Installing requirements
@@ -41,7 +41,7 @@ Download stopwords by entering `python` in terminal window and using `nltk.downl
 
 If needed, change constants (e.g. cpu number, server port, word2vec/lda model parameters) in `constants.py`. BTW, model parameters have already been tuned.
 
-    * From my experience, parameters which are vital important to models are: `TrainFiles`, `VEC_SIZE`, `W2V_TYPE`, `TOPICS_NUM`, `PASSES`, `WORD_DOC_FREQ`, 
+* From my experience, parameters which are vital important to models are: `TrainFiles`, `VEC_SIZE`, `W2V_TYPE`, `TOPICS_NUM`, `PASSES`, `WORD_DOC_FREQ`, 
 
 ### 2.3. Starting server
 Run `server.py` on server. Will create a website like `http://[your ip address]:5000/` and an API like `http://[your ip address]:5000/problem?text=`
