@@ -18,15 +18,15 @@ Rememeber to alter parameters and constants if you are using your own source dat
 
 ### Development Process
 
-* [] Implementation of various sentence/paragraph encoding models
+* [ ] Implementation of various sentence/paragraph encoding models
     * [] Unsupervised models
         * [x] average of word2vec
         * [x] max of word2vec
         * [x] lda topics
         * [x] word mover distance(paper: "From Word Embeddings To Document Distances")
-        * [] topic word embedding(paper: "Topical Word Embeddings")
-    * [] Supervised models
-        * [] seq2seq model(paper: "The Ubuntu Dialogue Corpus- A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems")
+        * [ ] topic word embedding(paper: "Topical Word Embeddings")
+    * [ ] Supervised models
+        * [ ] seq2seq model(paper: "The Ubuntu Dialogue Corpus- A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems")
 * [x] An api for depolying on server
 
 ## 2. Running Procedure
