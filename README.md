@@ -16,7 +16,7 @@ Rememeber to alter parameters and constants if you are using your own source dat
 3. Parallel model training
 4. File parser for external files in `.txt/.pdf/.pptx/.doc/.docx` format.
 
-### Development Process
+### Development Schedule
 
 * [ ] Implementation of various sentence/paragraph encoding models
     * [ ] Unsupervised models
